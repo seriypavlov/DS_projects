@@ -1,2 +1,7 @@
-# DS_projects
-Data Science projects from Yandex.Practikum course
+# DS проекты.
+Data Science проекты Яндекс.Практикум
+
+## Проекты.
+### Проект 1. Исследование надёжности заёмщиков
+
+### [Текст ссылки](https://github.com/seriypavlov/DS_projects/tree/master/Проект%201.%20Исследование%20надёжности%20заёмщиков "Заголовок ссылки")
