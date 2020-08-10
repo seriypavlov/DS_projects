@@ -13,7 +13,7 @@
 
 
 ### Библиотеки, используемые в проекте:
-- Pandas, 
+- Pandas
 - Numpy 
 - Seaborn 
 - SKlearn 
