@@ -2,7 +2,7 @@
 ### Описание проекта
 
 Необходимо написать нейронную сеть для классификации персонажей мульт сериала Simpsons.
-Соревнование на Kaggle https://www.kaggle.com/c/journey-springfield
+Соревнование на Kaggle https://www.kaggle.com/c/journey-springfield  
 Метрика F1-score
 
 ### Содержание проекта 
