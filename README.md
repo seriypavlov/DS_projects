@@ -8,6 +8,8 @@
 
 
 ## Список проектов
+    - Deep Learning project - Neural Style Transfer
+    - Deep Learning project - Segmentation
     - Deep Learning project - Classification
     - Проект. Выпускной проект. Телеком -  исследование оттока клиентов
     - Проект. Компьютерное зрение
@@ -27,8 +29,21 @@
 <br> 
 
 ## Описания проектов
+### [Deep Learning project - Neural Style Transfer](https://github.com/seriypavlov/DS_projects/tree/master/Deep%20Learning%20project%20-%20%20Neural%20Style%20Transfer)   
+Реализация идеи, описанной в этой статье http://cs231n.stanford.edu/reports/2017/pdfs/416.pdf  
+Применение сегментации к изображению, далее перенос стилей: один к объекту, второй к фону.
+#### Результат: Архитектура взаимодействия двух моделей FCN ResNet50(сегментация) и VGG19(NST) позволяют выделять объекты и применять разные стили к объекту и фону.
+#### Стек: PyTorch, Numpy, PIL, Matplotlib
+<br>
+
+### [Deep Learning project - Segmentation](https://github.com/seriypavlov/DS_projects/tree/master/Deep%20Learning%20project%20-%20Segmentation)   
+Необходимо сегментировать фотографии двух типов поражений кожи: меланома и родинки.
+#### Результат: Реализованы несколько вариантов сетей SegNet и UNet с различными функциями потерь.
+#### Стек: PyTorch, Numpy, Pandas, Matplotlib
+<br>
+
 ### [Deep Learning project - Classification](https://github.com/seriypavlov/DS_projects/tree/master/Deep%20Learning%20project%20-%20Classification)   
-Необходимо написать нейронную сеть для классификации персонажей мульт сериала Simpsons. Соревнование на Kaggle https://www.kaggle.com/c/journey-springfield
+Необходимо написать нейронную сеть для классификации персонажей мульт сериала Simpsons. Соревнование на Kaggle https://www.kaggle.com/c/journey-springfield  
 Метрика F1-score
 #### Результат: Дообученная CNN ResNet50 показала F1-score раное 0.97 на 42 классах персонажей.
 #### Стек: PyTorch, Numpy, Pandas, Matplotlib, PIL
