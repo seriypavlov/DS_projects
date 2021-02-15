@@ -15,7 +15,9 @@
 
 ### Библиотеки, используемые в проекте:
 - PyTorch
+- Detectron2
 - Numpy 
 - Torchvision
-- Matplotlib
-- PIL
+- s
+- json
+- cv2
