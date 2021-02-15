@@ -18,6 +18,6 @@
 - Detectron2
 - Numpy 
 - Torchvision
-- s
+- os
 - json
 - cv2
